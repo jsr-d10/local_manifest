@@ -6,7 +6,7 @@
 
   <!-- Device Folders, Kernel & Proprietary BLOBS -->
   <project path="device/jsr/d10f"                    name="jsr-d10/android_device_jsr_d10f"                   remote="github" revision="cm-11.0"/>
-  <project path="kernel/jsr/msm8226"                 name="jsr-d10/android_kernel_jsr_msm8226"                remote="github" revision="kk" />
+  <project path="kernel/jsr/msm8226"                 name="jsr-d10/android_kernel_jsr_msm8226"                remote="github" revision="mm" />
   <project path="vendor/jsr/d10f"                    name="jsr-d10/android_vendor_jsr_d10f"                   remote="github" revision="cm-11.0" />
 
   <!-- OTA -->
@@ -16,5 +16,9 @@
   <project path="hardware/qcom/fm"                   name="CyanogenMod/android_hardware_qcom_fm"              remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/display-caf-new"      name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/media-caf-new"        name="CyanogenMod/android_hardware_qcom_media-caf-new"   remote="github" revision="cm-11.0" />
+
+  <!-- Toolchain -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.9"                           remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERTC/arm-linux-androideabi-4.8" remote="bb" revision="master" />
 
  </manifest>
