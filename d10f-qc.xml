@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="caf" fetch="https://codeaurora.org/" />
+  <remote name="bb" fetch="https://bitbucket.org/" />
+
+  <project path="device/qcom/common"                 name="CyanogenMod/android_device_qcom_common"            remote="github" revision="cm-11.0" />
+
+  <!-- Device Folders, Kernel & Proprietary BLOBS -->
+  <project path="device/jsr/d10f"                    name="jsr-d10/android_device_jsr_d10f"                   remote="github" revision="cm-11.0-qc"/>
+  <project path="kernel/jsr/msm8226"                 name="jsr-d10/android_kernel_jsr_msm8226"                remote="github" revision="mm" />
+  <project path="vendor/jsr/d10f"                    name="jsr-d10/android_vendor_jsr_d10f"                   remote="github" revision="cm-11.0-qc" />
+
+  <!-- OTA -->
+  <project path="packages/apps/OpenDelta"            name="jsr-d10/android_packages_apps_OpenDelta"           remote="github" revision="cm-11.0"/>
+
+  <!-- QCOM Hardware -->
+  <project path="hardware/qcom/fm"                   name="CyanogenMod/android_hardware_qcom_fm"              remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/display-caf-new"      name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/media-caf-new"        name="CyanogenMod/android_hardware_qcom_media-caf-new"   remote="github" revision="cm-11.0" />
+
+  <!-- Toolchain -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.9"                           remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERTC/arm-linux-androideabi-4.8" remote="bb" revision="master" />
+
+
+  <project path="quic/la/platform/external/alljoyn/alljoyn_core"    path="external/alljoyn/alljoyn_core"      remote="caf" revision="kk_3.5" />
+  <project path="quic/la/platform/external/alljoyn/common"          path="external/alljoyn/common"            remote="caf" revision="kk_3.5" />
+
+  <project path="vendor/qcom/proprietary"            name="jsrd10/android_vendor_qcom_proprietary"            remote="bb" revision="master" />
+
+ </manifest>
