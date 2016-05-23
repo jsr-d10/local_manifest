@@ -3,11 +3,17 @@
   <remote name="caf" fetch="https://codeaurora.org/" />
   <remote name="bb" fetch="https://bitbucket.org/" />
 
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_camera" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
+  
+  
   <project path="device/qcom/common"                 name="CyanogenMod/android_device_qcom_common"            remote="github" revision="cm-11.0" />
 
   <!-- Device Folders, Kernel & Proprietary BLOBS -->
   <project path="device/jsr/d10f"                    name="jsr-d10/android_device_jsr_d10f"                   remote="github" revision="cm-11.0-qc"/>
-  <project path="kernel/jsr/msm8226"                 name="jsr-d10/android_kernel_jsr_msm8226"                remote="github" revision="mm" />
+  <project path="kernel/jsr/msm8226"                 name="jsr-d10/android_kernel_jsr_msm8226"                remote="github" revision="mm-qc" />
   <project path="vendor/jsr/d10f"                    name="jsr-d10/android_vendor_jsr_d10f"                   remote="github" revision="cm-11.0-qc" />
 
   <!-- OTA -->
@@ -23,9 +29,18 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERTC/arm-linux-androideabi-4.8" remote="bb" revision="master" />
 
 
+  <!-- vendor QCOM proprietary -->
+
   <project path="quic/la/platform/external/alljoyn/alljoyn_core"    path="external/alljoyn/alljoyn_core"      remote="caf" revision="kk_3.5" />
   <project path="quic/la/platform/external/alljoyn/common"          path="external/alljoyn/common"            remote="caf" revision="kk_3.5" />
 
+  <project path="vendor/qcom/prebuilt-msm8226"       name="jsrd10/android_vendor_qcom_prebuilt-msm8226"       remote="bb" revision="master" />
   <project path="vendor/qcom/proprietary"            name="jsrd10/android_vendor_qcom_proprietary"            remote="bb" revision="master" />
+  
+  <project path="hardware/qcom/audio-caf"            name="jsr-d10/android_hardware_qcom_audio-caf"           remote="github" revision="cm-11.0-qc" />
+  <project path="hardware/qcom/camera"               name="jsr-d10/android_hardware_qcom_camera"              remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/gps"                  name="jsr-d10/android_hardware_qcom_gps"                 remote="github" revision="master" />
+  
+  <project path="bootable/recovery"                  name="CyanogenMod/android_bootable_recovery-cm"          remote="github" revision="cm-11.0" />
 
  </manifest>
