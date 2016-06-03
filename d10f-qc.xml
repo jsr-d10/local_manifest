@@ -31,8 +31,8 @@
 
   <!-- vendor QCOM proprietary -->
 
-  <project path="quic/la/platform/external/alljoyn/alljoyn_core"    path="external/alljoyn/alljoyn_core"      remote="caf" revision="kk_3.5" />
-  <project path="quic/la/platform/external/alljoyn/common"          path="external/alljoyn/common"            remote="caf" revision="kk_3.5" />
+  <project path="external/alljoyn/alljoyn_core"      name="quic/la/platform/external/alljoyn/alljoyn_core"    remote="caf" revision="kk_3.5" />
+  <project path="external/alljoyn/common"            name="quic/la/platform/external/alljoyn/common"          remote="caf" revision="kk_3.5" />
 
   <project path="vendor/qcom/prebuilt-msm8226"       name="jsrd10/android_vendor_qcom_prebuilt-msm8226"       remote="bb" revision="master" />
   <project path="vendor/qcom/proprietary"            name="jsrd10/android_vendor_qcom_proprietary"            remote="bb" revision="msm8226-kk" />
