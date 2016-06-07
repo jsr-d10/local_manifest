@@ -45,4 +45,28 @@
 <remove-project name="CyanogenMod/android_external_eclipse-basebuilder" />
 
 <remove-project name="platform/developers/docs" />
- </manifest>
+
+<remove-project name="CyanogenMod/android_device_generic_goldfish" />
+<remove-project name="CyanogenMod/android_device_generic_x86" />
+<remove-project name="CyanogenMod/android_device_google_accessory_arduino" />
+<remove-project name="CyanogenMod/android_device_google_accessory_demokit" />
+<remove-project name="CyanogenMod/android_device_sample" />
+<remove-project name="CyanogenMod/android_external_wpa_supplicant_8_ti" />
+<!-- <remove-project name="CyanogenMod/android_external_yaffs2" /> -->
+<remove-project name="CyanogenMod/android_hardware_invensense" />
+<remove-project name="CyanogenMod/android_hardware_qcom_msm8960" />
+<remove-project name="CyanogenMod/android_hardware_qcom_msm8x74" />
+<remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
+<remove-project name="CyanogenMod/android_hardware_ti_omap3" />
+<remove-project name="CyanogenMod/android_hardware_ti_omap4xxx" />
+<remove-project name="CyanogenMod/android_hardware_ti_wlan" />
+<remove-project name="CyanogenMod/android_hardware_ti_wpan" />
+<remove-project name="platform/prebuilts/clang/linux-x86/mips/3.3" />
+<remove-project name="platform/prebuilts/clang/linux-x86/x86/3.3" />
+<remove-project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" />
+<remove-project name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" />
+<remove-project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" />
+<remove-project name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" />
+<remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" />
+
+</manifest>
