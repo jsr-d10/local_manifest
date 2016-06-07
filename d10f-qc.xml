@@ -2,6 +2,7 @@
 <manifest>
   <remote name="caf" fetch="https://codeaurora.org/" />
   <remote name="bb" fetch="https://bitbucket.org/" />
+  <remote name="pc" fetch="http://v2.pikacode.com/" />
 
   <remove-project name="CyanogenMod/android_bootable_recovery" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
@@ -34,8 +35,8 @@
   <project path="external/alljoyn/alljoyn_core"      name="jsr-d10/external_alljoyn_alljoyn_core"             remote="github" revision="kk_3.5" />
   <project path="external/alljoyn/common"            name="jsr-d10/external_alljoyn_common"                   remote="github" revision="kk_3.5" />
 
-  <project path="vendor/qcom/prebuilt-msm8226"       name="jsrd10/android_vendor_qcom_prebuilt-msm8226"       remote="bb" revision="master" />
-  <project path="vendor/qcom/proprietary"            name="jsrd10/android_vendor_qcom_proprietary"            remote="bb" revision="msm8226-kk" />
+  <project path="vendor/qcom/prebuilt-msm8226"       name="jsrd10/android_vendor_qcom_prebuilt-msm8226"       remote="pc" revision="master" />
+  <project path="vendor/qcom/proprietary"            name="jsrd10/android_vendor_qcom_proprietary"            remote="pc" revision="msm8226-kk" />
   
   <project path="hardware/qcom/audio-caf"            name="jsr-d10/android_hardware_qcom_audio-caf"           remote="github" revision="cm-11.0-qc" />
   <project path="hardware/qcom/camera"               name="jsr-d10/android_hardware_qcom_camera"              remote="github" revision="cm-11.0" />
