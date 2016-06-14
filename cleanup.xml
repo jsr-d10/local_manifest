@@ -72,4 +72,37 @@ build/core/java.mk:25: *** dalvik/dexgen: Invalid LOCAL_SDK_VERSION '4' Choices 
 <remove-project name="platform/prebuilts/eclipse" />
 
 <remove-project name="platform/developers/docs" />
+
+<remove-project name="CyanogenMod/android_device_google_atv" />
+<remove-project name="CyanogenMod/android_external_heimdall" />
+<remove-project name="CyanogenMod/android_hardware_nvidia_audio" />
+<remove-project name="CyanogenMod/android_hardware_nvidia_tegra124" />
+<remove-project name="CyanogenMod/android_hardware_ti_omap4" />
+<remove-project name="CyanogenMod/android_hardware_ti_omap4xxx" />
+<remove-project name="CyanogenMod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
+<remove-project name="device/generic/qemu" />
+<remove-project name="platform/docs/source.android.com" />
+<remove-project name="platform/external/arduino" />
+<remove-project name="platform/hardware/qcom/msm8960" />
+<remove-project name="platform/hardware/qcom/msm8x27" />
+<remove-project name="platform/hardware/qcom/msm8x84" />
+<remove-project name="platform/prebuilts/clang/linux-x86/3.2" />
+<remove-project name="platform/prebuilts/clang/linux-x86/arm/3.3" />
+<remove-project name="platform/prebuilts/clang/linux-x86/host/3.4" />
+<remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" />
+<!-- <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" />
+/usr/include/c++/5/new:39:28: fatal error: bits/c++config.h: Нет такого файла или каталога
+-->
+<remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
+<remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" />
+<remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
+<remove-project name="CyanogenMod/android_device_generic_goldfish" />
+<!-- <remove-project name="CyanogenMod/android_external_yaffs2" /> -->
+<remove-project name="CyanogenMod/android_hardware_invensense" />
+<remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
+<remove-project name="CyanogenMod/android_hardware_ti_wlan" />
+<remove-project name="CyanogenMod/android_hardware_ti_wpan" />
+<remove-project name="platform/prebuilts/clang/linux-x86/mips/3.3" />
+<remove-project name="platform/prebuilts/clang/linux-x86/x86/3.3" />
+
 </manifest>
