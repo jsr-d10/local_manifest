@@ -4,7 +4,7 @@
   <project name="CyanogenMod/android_hardware_qcom_fm"              path="hardware/qcom/fm"               remote="github" revision="cm-12.1" />
 
   <project name="jsr-d10/android_device_jsr_d10f"                   path="device/jsr/d10f"                remote="github" revision="cm-12.1-8228" />
-  <project name="jsr-d10/android_kernel_jsr_msm8228"                path="kernel/jsr/msm8228"             remote="github" revision="d10-test2" />
+  <project name="jsr-d10/android_kernel_jsr_msm8228"                path="kernel/jsr/msm8228"             remote="github" revision="lp-test1" />
   <project name="jsr-d10/android_vendor_jsr_d10f"                   path="vendor/jsr/d10f"                remote="github" revision="cm-12.1" />
 
   <project name="omnirom/android_packages_apps_OpenDelta"           path="packages/apps/OpenDelta"        remote="github" revision="android-5.1" />
