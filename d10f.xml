@@ -1,21 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="CyanogenMod/android_device_qcom_common"            path="device/qcom/common"             remote="github" revision="cm-12.1" />
-  <project name="CyanogenMod/android_hardware_qcom_fm"              path="hardware/qcom/fm"               remote="github" revision="cm-12.1" />
-
-  <project name="jsr-d10/android_device_jsr_d10f"                   path="device/jsr/d10f"                remote="github" revision="cm-12.1" />
-  <project name="jsr-d10/android_kernel_jsr_msm8226"                path="kernel/jsr/msm8226"             remote="github" revision="mm" />
-  <project name="jsr-d10/android_vendor_jsr_d10f"                   path="vendor/jsr/d10f"                remote="github" revision="cm-12.1" />
-
-  <project name="omnirom/android_packages_apps_OpenDelta"           path="packages/apps/OpenDelta"        remote="github" revision="android-5.1" />
-
-  <project name="CyanogenMod/android_packages_apps_Torch"           path="packages/apps/Torch"            remote="github" revision="cm-12.0"/>
-  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
-
-  <!-- Toolchain -->
+  <remote name="caf" fetch="https://codeaurora.org/" />
   <remote name="bb" fetch="https://bitbucket.org/" />
+  <remote name="pc" fetch="http://v2.pikacode.com/" />
+
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_gps" />
+  <remove-project name="CyanogenMod/android_hardware_ril" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.9"                           remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERTC/arm-linux-androideabi-4.8" remote="bb" revision="master" />
+
+  <project path="device/qcom/common"             name="CyanogenMod/android_device_qcom_common"            remote="github" revision="cm-12.1" />
+
+  <!-- Device Folders, Kernel & Proprietary BLOBS -->
+  <project path="device/jsr/d10f"                name="jsr-d10/android_device_jsr_d10f"                   remote="github" revision="cm-12.1-qc" />
+  <project path="kernel/jsr/msm8226"             name="jsr-d10/android_kernel_jsr_msm8226"                remote="github" revision="mm-qc-snd" />
+  <project path="vendor/jsr/d10f"                name="jsr-d10/android_vendor_jsr_d10f"                   remote="github" revision="cm-12.1-qc" />
+
+  <!-- Recovery -->
+  <project path="bootable/recovery-twrp"         name="omnirom/android_bootable_recovery"                 remote="github" revision="android-6.0" />
+  <project path="bootable/recovery"              name="CyanogenMod/android_bootable_recovery-cm"          remote="github" revision="cm-12.1" />
+
+  <!-- Addons (apps) -->
+  <project path="packages/apps/OpenDelta"        name="omnirom/android_packages_apps_OpenDelta"           remote="github" revision="android-5.1" />
+  <project path="packages/apps/Torch"            name="CyanogenMod/android_packages_apps_Torch"           remote="github" revision="cm-12.0"/>
+
+  <!-- Hardware -->
+  <project path="hardware/qcom/audio"            name="CyanogenMod/android_hardware_qcom_audio"           remote="github" revision="cm-12.1-caf-8974" />
+  <project path="hardware/qcom/display"          name="CyanogenMod/android_hardware_qcom_display"         remote="github" revision="cm-12.1-caf-8974" />
+  <project path="hardware/qcom/media"            name="CyanogenMod/android_hardware_qcom_media"           remote="github" revision="cm-12.1-caf-8974" />
+  <project path="hardware/qcom/fm"               name="CyanogenMod/android_hardware_qcom_fm"              remote="github" revision="cm-12.1" />
+  <project path="hardware/qcom/gps"              name="jsr-d10/android_hardware_qcom_gps"                 remote="github" revision="cm-12.1" />
+  <project path="hardware/qcom/ril"              name="jsr-d10/android_hardware_ril"                      remote="github" revision="cm-12.1-caf" />
+
+  <!-- Toolchain -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.9"                              remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERTC/arm-linux-androideabi-4.8"    remote="bb" revision="master" />
+
+  <!-- vendor QCOM opensource -->
+  <project path="vendor/qcom/opensource/location"      name="jsr-d10/android_vendor_qcom_opensource_location"      remote="github" revision="cm-12.1" />
+  <project path="vendor/qcom/opensource/dpm"           name="jsr-d10/android_vendor_qcom_opensource_dpm"           remote="github" revision="cm-12.1" />
+  <project path="vendor/qcom/opensource/time-services" name="jsr-d10/android_vendor_qcom_opensource_time-services" remote="github" revision="cm-12.1" />
+
+  <!-- vendor QCOM proprietary -->
+  <project path="vendor/qcom/prebuilt-msm8226"         name="jsr-d10/android_vendor_qcom_prebuilt-msm8226"         remote="bb" revision="msm8226-lp" />
+  <project path="vendor/qcom/proprietary"              name="jsr-d10/android_vendor_qcom_proprietary"              remote="bb" revision="msm8226-lp" />
+
 </manifest>
