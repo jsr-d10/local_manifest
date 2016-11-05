@@ -35,7 +35,7 @@
   <project path="hardware/qcom/media"            name="CyanogenMod/android_hardware_qcom_media"           remote="github" revision="cm-12.1-caf-8974" />
   <project path="hardware/qcom/fm"               name="CyanogenMod/android_hardware_qcom_fm"              remote="github" revision="cm-12.1" />
   <project path="hardware/qcom/gps"              name="jsr-d10/android_hardware_qcom_gps"                 remote="github" revision="cm-12.1" />
-  <project path="hardware/qcom/ril"              name="jsr-d10/android_hardware_ril"                      remote="github" revision="cm-12.1-caf" />
+  <project path="hardware/ril"                   name="jsr-d10/android_hardware_ril"                      remote="github" revision="cm-12.1-caf" />
 
   <!-- Toolchain -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="UBERTC/arm-eabi-4.9"                              remote="bb" revision="master" />
