@@ -47,7 +47,7 @@
   <project path="vendor/qcom/opensource/time-services" name="jsr-d10/android_vendor_qcom_opensource_time-services" remote="github" revision="cm-12.1" />
 
   <!-- vendor QCOM proprietary -->
-  <project path="vendor/qcom/prebuilt-msm8226"         name="jsr-d10/android_vendor_qcom_prebuilt-msm8226"         remote="bb" revision="msm8226-lp" />
-  <project path="vendor/qcom/proprietary"              name="jsr-d10/android_vendor_qcom_proprietary"              remote="bb" revision="msm8226-lp" />
+  <project path="vendor/qcom/prebuilt-msm8226"         name="jsrd10/android_vendor_qcom_prebuilt-msm8226"         remote="bb" revision="msm8226-lp" />
+  <project path="vendor/qcom/proprietary"              name="jsrd10/android_vendor_qcom_proprietary"              remote="bb" revision="msm8226-lp" />
 
 </manifest>
