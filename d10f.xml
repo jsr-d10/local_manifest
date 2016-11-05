@@ -4,7 +4,6 @@
   <remote name="bb" fetch="https://bitbucket.org/" />
   <remote name="pc" fetch="http://v2.pikacode.com/" />
 
-  <remove-project name="CyanogenMod/android_bootable_recovery" />
   <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
@@ -23,7 +22,6 @@
 
   <!-- Recovery -->
   <project path="bootable/recovery-twrp"         name="omnirom/android_bootable_recovery"                 remote="github" revision="android-6.0" />
-  <project path="bootable/recovery"              name="CyanogenMod/android_bootable_recovery-cm"          remote="github" revision="cm-12.1" />
 
   <!-- Addons (apps) -->
   <project path="packages/apps/OpenDelta"        name="omnirom/android_packages_apps_OpenDelta"           remote="github" revision="android-5.1" />
