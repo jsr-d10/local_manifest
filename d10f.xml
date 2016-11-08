@@ -17,7 +17,7 @@
 
   <!-- Device Folders, Kernel & Proprietary BLOBS -->
   <project path="device/jsr/d10f"                name="jsr-d10/android_device_jsr_d10f"                   remote="github" revision="cm-12.1-qc" />
-  <project path="kernel/jsr/msm8226"             name="jsr-d10/android_kernel_jsr_msm8226"                remote="github" revision="mm-qc-snd" />
+  <project path="kernel/jsr/msm8226"             name="jsr-d10/android_kernel_jsr_msm8226"                remote="github" revision="mm-qc-snd-lp" />
   <project path="vendor/jsr/d10f"                name="jsr-d10/android_vendor_jsr_d10f"                   remote="github" revision="cm-12.1-qc" />
 
   <!-- Recovery -->
