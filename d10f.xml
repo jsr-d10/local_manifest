@@ -26,6 +26,7 @@
   <!-- Addons (apps) -->
   <project path="packages/apps/OpenDelta"        name="omnirom/android_packages_apps_OpenDelta"           remote="github" revision="android-5.1" />
   <project path="packages/apps/Torch"            name="CyanogenMod/android_packages_apps_Torch"           remote="github" revision="cm-12.0"/>
+  <project path="packages/apps/Snap"             name="CyanogenMod/android_packages_apps_Snap"            remote="github" revision="cm-12.1"/>
 
   <!-- Hardware -->
   <project path="hardware/qcom/audio"            name="CyanogenMod/android_hardware_qcom_audio"           remote="github" revision="cm-12.1-caf-8974" />
