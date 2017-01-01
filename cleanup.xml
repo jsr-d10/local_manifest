@@ -7,7 +7,7 @@
 
 
 <!-- <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" /> -->
-<!-- <remove-project name="CyanogenMod/android_device_generic_mips" /> -->
+<!-- <remove-project name="LineageOS/android_device_generic_mips" /> -->
 
 <remove-project name="platform/prebuilts/android-emulator" />
 <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
@@ -16,7 +16,7 @@
 <remove-project name="device/generic/mini-emulator-x86_64" />
 <remove-project name="device/generic/mini-emulator-arm64" />
 
-<!-- <remove-project name="CyanogenMod/android_device_generic_arm64" /> -->
+<!-- <remove-project name="LineageOS/android_device_generic_arm64" /> -->
 <!-- <remove-project name="device/google/accessory/arduino" /> -->
 <!-- <remove-project name="device/google/accessory/demokit" /> -->
 <remove-project name="device/sample" />
@@ -34,7 +34,7 @@
 <remove-project name="platform/hardware/intel/sensors" />
 <remove-project name="platform/hardware/intel/audio_media" />
 
-<remove-project name="CyanogenMod/android_hardware_broadcom_wlan" />
+<remove-project name="LineageOS/android_hardware_broadcom_wlan" />
 <remove-project name="platform/hardware/ti/omap3" />
 <remove-project name="platform/hardware/ti/omap4-aah" />
 <!-- <remove-project name="platform/prebuilts/sdk" />
