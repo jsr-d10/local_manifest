@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="jsr-d10/android_device_jsr_d10f"                   path="device/jsr/d10f"                remote="github" />
+  <project name="jsr-d10/android_device_jsr_d10f"                   path="device/jsr/d10f"                remote="github" revision="laos-14.1" />
   <project name="jsr-d10/android_kernel_jsr_msm8226"                path="kernel/jsr/msm8226"             remote="github" revision="mm-qc-snd" />
   <project name="jsr-d10/android_vendor_jsr_d10f"                   path="vendor/jsr/d10f"                remote="github" />
 
