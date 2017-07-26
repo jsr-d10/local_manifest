@@ -31,7 +31,6 @@
 <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
 <remove-project name="platform/hardware/intel/common/bd_prov" />
 <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
-<remove-project name="platform/hardware/intel/sensors" />
 <remove-project name="platform/hardware/intel/audio_media" />
 
 <remove-project name="LineageOS/android_hardware_broadcom_wlan" />
