@@ -2,4 +2,5 @@
 <manifest>
   <project name="omnirom/android_bootable_recovery"                 path="bootable/recovery-twrp"         remote="github" revision="2af13795b9e55b57e8323abbb17e7467ebba1ff0" />
   <project name="LineageOS/android_external_busybox"                path="external/busybox"               remote="github" revision="cm-13.0" />
+  <project path="external/lzo" name="LineageOS/android_external_lzo" revision="cm-14.1" />
 </manifest>
